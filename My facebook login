@@ -1,0 +1,93 @@
+<style>
+body{
+  background-color: white;
+   margin-top: 60px;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+body-border{
+  border-color: green;
+  border-style: solid;
+  border-width: 10px;
+}
+    .smaller-image {
+      Width: 200px;
+    }
+  .blue-text{
+    color: navy;
+  }
+  h1{
+    font-family: sans-serif;
+  }
+  .facebook-text-center{
+    margin-left: 240px;
+    margin-right: 250px;
+  }
+  .facebook-logo-center{
+   margin-left: 250px;
+    margin-right: 250px;
+  }
+  .facebook-text{
+    font-size: 50px;
+  }
+  .signin-background{
+    background-color: silver;
+  }
+  .signup-background{
+    background-color: silver;
+  }
+  h2,p{
+    font-family: sans-serif;
+  }
+  </style>
+<!DOCTYPE HTML>
+<html>
+  <title>Facebook log in or sign up page using html and css</title>
+ <a href="#">
+    <img class="blue-thick-border facebook-logo-center smaller-image" src="https://securecdn.pymnts.com/wp-content/uploads/2018/02/facebookpublisher.jpg" alt="Facebook"/></a>
+                                                           
+                                                     <h1 class="blue-text facebook-text facebook-text-center">Facebook</h1>
+
+            <main>
+              <div class="signin-background">
+              <h2>Log In</h2>
+
+        <p>
+        Enter email
+</p>
+<input type="email" placeholder="Enter your Id or Phone number"/>
+<p>Enter Password
+</p>
+<input type="Password" placeholder="Enter Password or Pin"/><br>
+<a style="font-size:14px;,font-family: sans-serif;"href="https://web.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar">Forgot Password?</a>
+                                   <form action="/submit-email-or-password">
+
+    <label style="font-size:14px;, font-family: sans-serif;"><input type="checkbox">
+                                     keep me logged in</label>
+                      <br>               <button type="submit">Sign in</button>
+                </form>
+             <hr>
+                <h2>Sign Up</h2>
+                      <p>Your Name</p>
+                      <input type="first name" placeholder="First Name"/><input type="last name" placeholder="Last Name"/>
+                      <p>Your Mobile number or Email</p>
+                      <input type="number or email" placeholder="Email or Mobile Number" />
+                      <p>New Password</p>
+                      <input type="password" placeholder="Enter new Password" />
+                      <p>Date Of Birth</p>
+                      <input type="only date" placeholder="Date" /><input type="only month" placeholder="Month" /><input type="year" placeholder="Year"/>
+                       <p>Gender</p>
+<p><input name="gender" type="radio">Male</p>
+<p><input name="gender" type="radio">Female</p>
+  <form action="/submit-email-or-password">
+<button type="submit" >Sign Up</button></form>
+<p>
+              </div>
+  <a href="https://web.facebook.com/pages/creation/?ref_type=registration_form">Create a Page</a>for Celebrity,Band and Buisness.</p>
+<p>Terms and Conditions
+
+</p>
+<footer>Facebook &copy; 2019</footer>
+                                                                                </html>
